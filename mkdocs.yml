@@ -31,11 +31,11 @@ theme:
 
 plugins:
   - search
-  - gen-files:
-      scripts:
-        - docs/generate.py
-  - literate-nav:
-      nav_file: SUMMARY.md
+#  - gen-files:
+#      scripts:
+#        - docs/generate.py
+#  - literate-nav:
+#      nav_file: SUMMARY.md
   - section-index
   - mkdocstrings
   - coverage
