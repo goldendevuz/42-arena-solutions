@@ -48,7 +48,7 @@ markdown_extensions:
       check_paths: true
 
 extra:
-  favicon: 'images/favicon.ico'  # Adjust the path as necessary
+  favicon: 'img/favicon.ico'  # Adjust the path as necessary
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/under-script/leetcode-solutions
