@@ -1,0 +1,2 @@
+[run]
+omit = .venv/*, __pycache__/*, tests/*,  docs/*, .github/*, .idea/*, mkdocs.yml, .coveragerc, docs/*
