@@ -1,54 +1,31 @@
+#site_name: "Documentation"
 site_name: leetcode python solutions
-
+site_author: Yunusov Abdulmajid
+site_description: notion-mkdocs is a Python package that allows you to convert Notion pages into Markdown files and then build a static site using MkDocs. This tool streamlines the process of turning your Notion content into a well-structured, easily navigable documentation site.
+site_url: https://under-script.github.io/leetcode-solutions/
+copyright: "© 2024 Notion mkdocs"
+repo_name: under-script/leetcode-solutions
 repo_url: https://github.com/under-script/leetcode-solutions
-#site_url: https://mydomain.org/mysite
+
 theme:
   name: material
-  navigation_depth: 4
-  features:
-    - naviagation.sections
-    - navigation.indexes
+  favicon: "./img/favicon.ico"
+  logo: "./img/favicon.png"
+  palette:
+    scheme: slate
+    primary: 'black'
+    accent: 'yellow'
+    toggle:
+      icon: material/lightbulb
+      name: Switch to light mode
   icon:
     repo: fontawesome/brands/github
   font:
     text: Tahoma
     code: Source Code Pro
-  palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: deep orange
-      accent: orange
-      toggle:
-        icon: material/lightbulb-outline
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: orange
-      accent: deep orange
-      toggle:
-        icon: material/lightbulb
-        name: Switch to light mode
 
 plugins:
   - search
-#  - gen-files:
-#      scripts:
-#        - docs/generate.py
-#  - literate-nav:
-#      nav_file: SUMMARY.md
-#  - section-index
-#  - mkdocstrings
-#  - coverage
-
-markdown_extensions:
-  - admonition
-  - pymdownx.highlight
-  - pymdownx.superfences
-  - pymdownx.snippets:
-      check_paths: true
-
-extra:
-  favicon: 'img/favicon.ico'  # Adjust the path as necessary
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/under-script/leetcode-solutions
+social:
+  - icon: fontawesome/brands/github
+    link: https://github.com/under-script/leetcode-solutions
