@@ -1,6 +1,6 @@
 # Solutions
 
-[C#](solutions/c.md)
+[C#](solutions/c-sharp.md)
 
 [Python](solutions/python.md)
 

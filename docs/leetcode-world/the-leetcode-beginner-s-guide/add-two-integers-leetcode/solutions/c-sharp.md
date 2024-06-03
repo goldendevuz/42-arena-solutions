@@ -1,5 +1,5 @@
 # C#
 
-[Starter Code](c/starter-code.md)
+[Starter Code](c-sharp/starter-code.md)
 
-[Promlem Solution](c/promlem-solution.md)
+[Promlem Solution](c-sharp/promlem-solution.md)
