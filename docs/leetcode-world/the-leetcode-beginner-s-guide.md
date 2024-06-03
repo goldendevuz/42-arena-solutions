@@ -2,10 +2,8 @@
 
 [Add Two Integers - LeetCode](the-leetcode-beginner-s-guide/add-two-integers-leetcode.md)
 
-[//]: # ([Root Equals Sum of Children - LeetCode]&#40;+/root-equals-sum-of-children-leetcode.md&#41;)
 
-[//]: # ()
-[//]: # ([Running Sum of 1d Array - LeetCode]&#40;+/running-sum-of-1d-array-leetcode.md&#41;)
+[Running Sum of 1d Array - LeetCode](the-leetcode-beginner-s-guide/running-sum-of-1d-array-leetcode.md)
 
 [//]: # ()
 [//]: # ([Richest Customer Wealth - LeetCode]&#40;+/richest-customer-wealth-leetcode.md&#41;)
@@ -21,3 +19,5 @@
 
 [//]: # ()
 [//]: # ([Ransom Note - LeetCode]&#40;+/ransom-note-leetcode.md&#41;)
+
+[//]: # ([Root Equals Sum of Children - LeetCode]&#40;+/root-equals-sum-of-children-leetcode.md&#41;)
