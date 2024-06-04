@@ -2,7 +2,7 @@
 site_name: leetcode python solutions
 site_author: Yunusov Abdulmajid
 site_description: notion-mkdocs is a Python package that allows you to convert Notion pages into Markdown files and then build a static site using MkDocs. This tool streamlines the process of turning your Notion content into a well-structured, easily navigable documentation site.
-site_url: https://under-script.github.io/leetcode-solutions/
+#site_url: https://under-script.github.io/leetcode-solutions/
 copyright: "© 2024 Notion mkdocs"
 repo_name: under-script/leetcode-solutions
 repo_url: https://github.com/under-script/leetcode-solutions
