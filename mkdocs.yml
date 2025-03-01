@@ -1,11 +1,11 @@
 #site_name: "Documentation"
-site_name: leetcode python solutions
+site_name: Arena solutions
 site_author: Yunusov Abdulmajid
-site_description: notion-mkdocs is a Python package that allows you to convert Notion pages into Markdown files and then build a static site using MkDocs. This tool streamlines the process of turning your Notion content into a well-structured, easily navigable documentation site.
-#site_url: https://under-script.github.io/leetcode-solutions/
-copyright: "© 2024 Notion mkdocs"
-repo_name: under-script/leetcode-solutions
-repo_url: https://github.com/under-script/leetcode-solutions
+# site_description: notion-mkdocs is a Python package that allows you to convert Notion pages into Markdown files and then build a static site using MkDocs. This tool streamlines the process of turning your Notion content into a well-structured, easily navigable documentation site.
+site_url: https://goldendevuz.github.io/arena-solutions/
+copyright: "© 2025 Abdulmajid's arena solutions"
+repo_name: goldendevuz/arena-solutions
+repo_url: https://github.com/goldendevuz/arena-solutions
 
 theme:
   name: material
@@ -28,4 +28,4 @@ plugins:
   - search
 social:
   - icon: fontawesome/brands/github
-    link: https://github.com/under-script/leetcode-solutions
+    link: https://github.com/goldendevuz/arena-solutions
