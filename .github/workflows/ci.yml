@@ -1,8 +1,7 @@
-name: ci 
+name: ci
 on:
   push:
     branches:
-      - master 
       - main
 permissions:
   contents: write
@@ -10,13 +9,16 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Configure Git Credentials
-        run: |
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v4
         with:
           python-version: 3.x
-      - run: pip install mkdocs-material 
+      - run: pip install mkdocs-material
+      - name: Configure Git Authentication (Using PAT)
+        run: |
+          git config --global user.name "goldendevuz"
+          git config --global user.email "goldendevuz@gmail.com"
+          git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git
       - run: mkdocs gh-deploy --force
