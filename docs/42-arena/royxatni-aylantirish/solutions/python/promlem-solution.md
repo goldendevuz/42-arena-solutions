@@ -10,7 +10,7 @@ def rotate(nums: list, k: int) -> list:
 	  return nums
 ```
 
-> **Time Complexity**: O(n)
+> **Time Complexity**: O(nk)
 > 
 
 > **Space Complexity**: O(1)

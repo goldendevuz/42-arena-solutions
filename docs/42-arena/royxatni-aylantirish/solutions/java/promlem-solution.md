@@ -16,7 +16,7 @@ func (_ Solution) Rotate(nums []int, k int) []int {
 }
 ```
 
-> **Time Complexity**: O(n)
+> **Time Complexity**: O(nk)
 > 
 
 > **Space Complexity**: O(1)

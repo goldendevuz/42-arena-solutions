@@ -15,7 +15,7 @@ function rotate(nums, k){
 module.exports = {rotate}
 ```
 
-> **Time Complexity**: O(n)
+> **Time Complexity**: O(nk)
 > 
 
 > **Space Complexity**: O(1)
